@@ -1,0 +1,15 @@
+.stop-type {
+    display: inline-block;
+    border-radius: 5px;
+    min-width: 60px;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+.pick-up {
+    background-color: #c0eb75;
+}
+
+.delivery {
+    background-color: #74c0fc;
+}
