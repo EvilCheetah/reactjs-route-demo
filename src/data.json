@@ -1,0 +1,73 @@
+[
+    {
+        "stop_sequence": 1,
+        "stop_type": "Pick Up",
+        "appointment": {
+            "from": "2022-07-14T08:00:00",
+            "to":   "2022-07-14T11:00:00"
+        },
+        "address": {
+            "company_name": "Target",
+            "address_line_1": "3471 W Century Blvd",
+            "city": "Inglewood",
+            "state": "CA",
+            "postal_code": "90305",
+            "country": "US"
+        },
+        "cargo": {
+            "pallets": 10,
+            "weight": 1000
+        }
+    },
+    {
+        "stop_sequence": 2,
+        "stop_type": "Delivery",
+        "appointment": {
+            "from": "2022-07-15T11:00:00"
+        },
+        "address": {
+            "company_name": "Walmart",
+            "address_line_1": "201 N Nellis Blvd",
+            "city": "Las Vegas",
+            "state": "NV",
+            "postal_code": "89110",
+            "country": "US"
+        }
+    },
+    {
+        "stop_sequence": 3,
+        "stop_type": "Pick Up",
+        "appointment": {
+            "from": "2022-07-18T12:00:00",
+            "to":   "2022-07-18T12:30:00"
+        },
+        "address": {
+            "company_name": "Meijer",
+            "address_line_1": "3565 Fairlane Dr",
+            "address_line_2": "Ste 200",
+            "city": "Allen Park",
+            "state": "MI",
+            "postal_code": "48101",
+            "country": "US"
+        },
+        "cargo": {
+            "weight": 1300
+        }
+    },
+    {
+        "stop_sequence": 4,
+        "stop_type": "Delivery",
+        "appointment": {
+            "from": "2022-07-20T05:00:00"
+        },
+        "address": {
+            "company_name": "IKEA North York",
+            "address_line_1": "15 Provost Dr",
+            "address_line_2": "Ste 350",
+            "city": "Toronto",
+            "state": "ON",
+            "postal_code": "M2K 2X9",
+            "country": "CA"
+        }
+    }
+]
