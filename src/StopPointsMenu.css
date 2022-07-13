@@ -1,0 +1,10 @@
+.stop-points-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+
+    margin: auto;
+    align-items: center;
+    justify-self: center;
+}
