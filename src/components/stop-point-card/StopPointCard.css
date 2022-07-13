@@ -1,0 +1,9 @@
+.stop-point-card {
+    background-color: #bac8ff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    min-width: 300px;
+}
