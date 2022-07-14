@@ -7,8 +7,8 @@ import { get_stop_type_classname } from "../../function/get-stop-type-classname.
 export function StopType({ stop_type }: StopTypeProp)
 {
     return (
-        <span className={`stop-type ${get_stop_type_classname(stop_type)}`}>
+        <div className={`stop-type ${get_stop_type_classname(stop_type)}`}>
             {stop_type}
-        </span>
+        </div>
     )
 }

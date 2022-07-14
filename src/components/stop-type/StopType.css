@@ -1,9 +1,10 @@
 .stop-type {
-    display: inline-block;
-    border-radius: 5px;
-    min-width: 60px;
-    padding: 3px 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 4rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .pick-up {
