@@ -18,7 +18,7 @@ export function StopAddress({ address_information }: StopAddressProp)
     } = address_information;
 
     return (
-        <span
+        <div
             className="address-information"
         >
             {company_name && <CompanyName company_name={company_name} />}
@@ -26,6 +26,6 @@ export function StopAddress({ address_information }: StopAddressProp)
             {address_line_2 && (<div className="address-line-2">{address_line_2}</div>)}
             <RelativeAddress city={city} state={state} postal_code={postal_code} />
             <div className="country">{country}</div>
-        </span>
+        </div>
     );
 }

@@ -1,16 +1,16 @@
-import { format_time } from "../../function/format-time.function";
+import './Appointment.css';
+import { AppointmentItem } from "./AppointmentItem";
 import { AppointmentProp } from "../../interface/props/appointment-prop.interface";
 
 
 export function Appointment({ appointment }: AppointmentProp)
 {
-    const formatted_from = format_time(appointment.from);
-    const formatted_to   = appointment.to ? format_time(appointment.to) : null;
+    const {from, to} = appointment;
 
     return (
         <div className="appointment-information">
-            <span className="time-from"></span>
-            <span className="time-to"></span>
+            <AppointmentItem datetime_string={from} prefix="From" />
+            {to && (<AppointmentItem datetime_string={to} prefix="To"/>)}
         </div>
     )
 }
