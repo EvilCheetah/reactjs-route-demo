@@ -1,6 +1,12 @@
 .address-information {
-    background-color: #dee2e6;
-    padding: 5px 10px;
-    min-width: 200px;
+    padding: 0.5em 1em;
     text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.address-information > * {
+    overflow-wrap: break-all;
 }

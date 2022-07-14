@@ -1,0 +1,9 @@
+.appointment-information {
+    padding: 0.5rem 1rem;
+    min-width: 150px;
+    grid-column: -1 / -2;
+}
+
+.to-time {
+    margin-top: 16px;
+}
