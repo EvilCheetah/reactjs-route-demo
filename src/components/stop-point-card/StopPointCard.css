@@ -1,9 +1,18 @@
 .stop-point-card {
-    background-color: #bac8ff;
+    background-color: #ced4da;
+    min-width: fit-content;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 0.5fr 1.125fr 1fr 1fr;
+    border-radius: 0.25em;
+}
 
-    min-width: 300px;
+.stop-point-card > * {
+    flex-basis: 0;
+    border-left: 1px solid #868e96;
+    border-right: 1px solid #868e96;
+}
+
+.stop-point-card:last-child {
+    border-right: 0px;
 }
