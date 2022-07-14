@@ -1,7 +1,7 @@
 import { DateTime } from 'luxon';
 
 
-export function format_time(datetime_string: string)
+export function get_formatted_time(datetime_string: string)
 {
     const date = DateTime.fromISO(datetime_string).setZone('America/Los_Angeles')
 
