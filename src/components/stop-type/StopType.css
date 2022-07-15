@@ -5,6 +5,8 @@
 
     min-width: 4rem;
     padding: 0.5rem 0.5rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
 }
 
 .pick-up {
@@ -14,3 +16,11 @@
 .delivery {
     background-color: #74c0fc;
 }
+
+@media screen and (max-width: 720px) {
+    .stop-type {
+        border-bottom-left-radius: none;
+        border-top-right-radius: 0.25rem;
+    }
+}
+
