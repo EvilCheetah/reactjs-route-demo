@@ -5,12 +5,15 @@ import { AppointmentProp } from "../../interface/props/appointment-prop.interfac
 
 export function Appointment({ appointment }: AppointmentProp)
 {
-    const {from, to} = appointment;
+    const {type, from, to} = appointment;
 
     return (
         <div className="appointment-information">
-            <AppointmentItem datetime_string={from} prefix="From" />
-            {to && (<AppointmentItem datetime_string={to} prefix="To"/>)}
+            <div className={`appointment-type ${type.toLowerCase()}`}>{type}</div>
+            <div className='time-frame'>
+                <AppointmentItem datetime_string={from} prefix="From" />
+                {to && (<AppointmentItem datetime_string={to} prefix="To"/>)}
+            </div>
         </div>
     )
 }
