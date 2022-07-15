@@ -4,6 +4,38 @@
     grid-column: -1 / -2;
 }
 
+.appointment-type {
+    font-weight: 500;
+    display: flex;
+    border-radius: 0.25rem;
+    justify-content: center;
+    margin-bottom: 0.25rem;
+    padding: 0.125rem 0.25rem;
+}
+
+.asap {
+    background-color: #d0bfff;
+}
+
+.appointment {
+    background-color: #ffc9c9;
+}
+
+.fcfs {
+    background-color: #d0bfff;
+}
+
 .to-time {
     margin-top: 16px;
+}
+
+@media screen and (max-width: 720px) {
+    .to-time {
+        margin-top: 0;
+    }
+
+    .time-frame {
+        display: flex;
+        justify-content: space-between;
+    }
 }
