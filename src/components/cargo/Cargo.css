@@ -5,3 +5,9 @@
 
     padding: 2rem 1rem;
 }
+
+@media screen and (max-width: 720px) {
+    .cargo {
+        padding: 1rem 1rem;
+    }
+}
