@@ -6,6 +6,11 @@ import { Weight } from "./Weight";
 
 export function Cargo({ cargo }: CargoProp)
 {
+    if (!cargo)
+        return (
+            <div className="cargo"></div>
+        );
+    
     const {weight, pallets} = cargo
 
     return (
