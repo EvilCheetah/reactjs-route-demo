@@ -16,7 +16,7 @@ export function StopPointCard({ stop_point }: StopPointProp)
         >
             <StopType stop_type={stop_type} />
             <StopAddress address_information={address} />
-            {cargo && <Cargo cargo={cargo} />}
+            <Cargo cargo={cargo} />
             <Appointment appointment={appointment} />
         </div>
     );
