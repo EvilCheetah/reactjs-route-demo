@@ -12,7 +12,7 @@ export function StopPointCard({ stop_point }: StopPointProp)
 
     return (
         <div 
-            className="stop-point-card"
+            className="card"
         >
             <StopType stop_type={stop_type} />
             <StopAddress address_information={address} />
